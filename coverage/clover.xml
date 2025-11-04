@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1762246770675" clover="3.2.0">
+  <project timestamp="1762246770676" name="All files">
+    <metrics statements="3" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="0" coveredmethods="0" elements="5" coveredelements="0" complexity="0" loc="3" ncloc="3" packages="1" files="1" classes="1"/>
+    <file name="c.js" path="/home/mystique/Desktop/Mern/server/c.js">
+      <metrics statements="3" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="0" type="stmt"/>
+      <line num="3" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="7" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>
