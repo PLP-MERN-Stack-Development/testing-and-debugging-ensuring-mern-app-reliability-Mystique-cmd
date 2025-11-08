@@ -1,58 +1,50 @@
-# Testing and Debugging MERN Applications
+The project focuses on implementing comprehensive testing strategies for a Mern Stack application, including unit testing, integration testing, and end to end testing along with debugging techniques.
 
-This assignment focuses on implementing comprehensive testing strategies for a MERN stack application, including unit testing, integration testing, and end-to-end testing, along with debugging techniques.
+## Project Overview
 
-## Assignment Overview
+1. Testing environments for both client and server
+2. Unit tests for React components and server functions
+3. Integration tests for API end-points
+4. End to end tests for critical user flows
+5. Debugging techniquse for common MERN stack issues
 
-You will:
-1. Set up testing environments for both client and server
-2. Write unit tests for React components and server functions
-3. Implement integration tests for API endpoints
-4. Create end-to-end tests for critical user flows
-5. Apply debugging techniques for common MERN stack issues
-
-## Project Structure
-
-```
-mern-testing/
-├── client/                 # React front-end
-│   ├── src/                # React source code
-│   │   ├── components/     # React components
-│   │   ├── tests/          # Client-side tests
-│   │   │   ├── unit/       # Unit tests
-│   │   │   └── integration/ # Integration tests
-│   │   └── App.jsx         # Main application component
-│   └── cypress/            # End-to-end tests
-├── server/                 # Express.js back-end
-│   ├── src/                # Server source code
-│   │   ├── controllers/    # Route controllers
-│   │   ├── models/         # Mongoose models
-│   │   ├── routes/         # API routes
-│   │   └── middleware/     # Custom middleware
-│   └── tests/              # Server-side tests
-│       ├── unit/           # Unit tests
-│       └── integration/    # Integration tests
-├── jest.config.js          # Jest configuration
-└── package.json            # Project dependencies
-```
 
 ## Getting Started
+  1. Clone the repository
+    ```
+    git clone <repo name>
+    ```
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Follow the setup instructions in the `Week6-Assignment.md` file
-4. Explore the starter code and existing tests
-5. Complete the tasks outlined in the assignment
+  2. Install the dependencies in the package.json file.
+  3. Run the tests
 
-## Files Included
+    ## client
+    ```
+      npm run test:client
+    ```
 
-- `Week6-Assignment.md`: Detailed assignment instructions
-- Starter code for a MERN application with basic test setup:
-  - Sample React components with test files
-  - Express routes with test files
-  - Jest and testing library configurations
-  - Example tests for reference
+    ## server
+    ```
+      npm run test:server
+    ```
 
+    ## coverage
+    ```
+    npm run coverage
+    ```
+
+    ## integration
+    ```
+    npm run test:integration
+    ```
+
+    ## unit
+    ```
+      npm run test:unit
+    ```
+  All the scripts to run are in the packaeg.json file on the root of the project.
+  
+  
 ## Requirements
 
 - Node.js (v18 or higher)
@@ -65,18 +57,8 @@ mern-testing/
 - Jest: JavaScript testing framework
 - React Testing Library: Testing utilities for React
 - Supertest: HTTP assertions for API testing
-- Cypress/Playwright: End-to-end testing framework
+- Cypress: End-to-end testing framework
 - MongoDB Memory Server: In-memory MongoDB for testing
-
-## Submission
-
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
-
-1. Complete all required tests (unit, integration, and end-to-end)
-2. Achieve at least 70% code coverage for unit tests
-3. Document your testing strategy in the README.md
-4. Include screenshots of your test coverage reports
-5. Demonstrate debugging techniques in your code
 
 ## Resources
 

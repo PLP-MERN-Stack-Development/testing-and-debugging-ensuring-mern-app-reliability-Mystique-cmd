@@ -1,92 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1762364089991" clover="3.2.0">
-  <project timestamp="1762364089991" name="All files">
-    <metrics statements="59" coveredstatements="52" conditionals="29" coveredconditionals="18" methods="7" coveredmethods="6" elements="95" coveredelements="76" complexity="0" loc="59" ncloc="59" packages="4" files="5" classes="5"/>
-    <package name="server">
-      <metrics statements="3" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="c.js" path="/home/mystique/Desktop/Mern/server/c.js">
-        <metrics statements="3" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="3" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="7" count="0" type="stmt"/>
-      </file>
-    </package>
-    <package name="server.src">
-      <metrics statements="47" coveredstatements="46" conditionals="27" coveredconditionals="18" methods="6" coveredmethods="6"/>
-      <file name="app.js" path="/home/mystique/Desktop/Mern/server/src/app.js">
-        <metrics statements="47" coveredstatements="46" conditionals="27" coveredconditionals="18" methods="6" coveredmethods="6"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="6" type="stmt"/>
-        <line num="13" count="6" type="cond" truecount="2" falsecount="0"/>
-        <line num="14" count="3" type="stmt"/>
-        <line num="15" count="3" type="stmt"/>
-        <line num="16" count="3" type="stmt"/>
-        <line num="17" count="3" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="21" count="3" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="26" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="28" count="1" type="cond" truecount="4" falsecount="1"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="37" count="1" type="stmt"/>
-        <line num="41" count="1" type="stmt"/>
-        <line num="42" count="1" type="cond" truecount="2" falsecount="0"/>
-        <line num="43" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="44" count="1" type="stmt"/>
-        <line num="47" count="1" type="stmt"/>
-        <line num="51" count="1" type="stmt"/>
-        <line num="52" count="1" type="stmt"/>
-        <line num="53" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="54" count="1" type="stmt"/>
-        <line num="58" count="1" type="stmt"/>
-        <line num="59" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="60" count="1" type="stmt"/>
-        <line num="61" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="62" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="64" count="1" type="stmt"/>
-        <line num="65" count="1" type="stmt"/>
-        <line num="66" count="1" type="stmt"/>
-        <line num="70" count="1" type="stmt"/>
-        <line num="71" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="72" count="1" type="stmt"/>
-        <line num="73" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="74" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="76" count="1" type="stmt"/>
-        <line num="77" count="1" type="stmt"/>
-        <line num="80" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="server.src.models">
-      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="Post.js" path="/home/mystique/Desktop/Mern/server/src/models/Post.js">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-      </file>
-      <file name="User.js" path="/home/mystique/Desktop/Mern/server/src/models/User.js">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="server.src.utils">
-      <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="auth.js" path="/home/mystique/Desktop/Mern/server/src/utils/auth.js">
-        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-      </file>
-    </package>
+<coverage generated="1762596423264" clover="3.2.0">
+  <project timestamp="1762596423265" name="All files">
+    <metrics statements="3" coveredstatements="3" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1" elements="9" coveredelements="9" complexity="0" loc="3" ncloc="3" packages="1" files="1" classes="1"/>
+    <file name="Button.jsx" path="/home/mystique/Desktop/testing-and-debugging-ensuring-mern-app-reliability-Mystique-cmd/components/Button.jsx">
+      <metrics statements="3" coveredstatements="3" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="27" count="12" type="stmt"/>
+    </file>
   </project>
 </coverage>
